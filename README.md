@@ -11,53 +11,6 @@ RecruitLens is an end-to-end recruitment intelligence platform that ranks candid
 Each candidate progresses through validation, feature extraction, weighted scoring, semantic reranking using **all-MiniLM-L6-v2**, and a final honeypot audit before being included in the recruiter-ready Top-100 shortlist. Every ranking is supported by deterministic scoring, transparent decision traces, and measurable candidate signals, ensuring accurate, consistent, and explainable hiring recommendations.
 # 🎬 Product Walkthrough
 
-## Dashboard
-
-<p align="center">
-  <img src="image/dashboard.gif" width="900" alt="Dashboard"/>
-</p>
-
-> Interactive recruitment dashboard with live metrics, candidate insights, and system overview.
-
----
-
-## Candidate Ranking
-
-<p align="center">
-  <img src="image/candidate.gif" width="900" alt="Candidate Ranking"/>
-</p>
-
-> End-to-end candidate evaluation and intelligent ranking pipeline.
-
----
-
-## Candidate Comparison
-
-<p align="center">
-  <img src="image/candidate comparison.gif" width="900" alt="Candidate Comparison"/>
-</p>
-
-> Side-by-side comparison of shortlisted candidates across multiple evaluation signals.
-
----
-
-## Hidden Gem Detection
-
-<p align="center">
-  <img src="image/hiddendetection.gif" width="900" alt="Hidden Gem Detection"/>
-</p>
-
-> Identification of high-potential candidates who may be overlooked by traditional screening.
-
----
-
-## Recruiter Copilot
-
-<p align="center">
-  <img src="image/recruiter.gif" width="900" alt="Recruiter Copilot"/>
-</p>
-
-> Explainable candidate recommendations with deterministic hiring insights.
 
 
 ## Technology Stack 
