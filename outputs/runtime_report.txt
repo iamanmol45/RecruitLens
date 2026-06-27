@@ -1,0 +1,12 @@
+
+PERFORMANCE REPORT
+========================
+Runtime: 56.27 seconds
+Memory Usage: 2.30 GB
+Compute: CPU Only
+External APIs: None
+Embedding Model: all-MiniLM-L6-v2
+========================
+
+[PASS] Runtime within 5-minute limit
+[PASS] Memory within 16 GB limit

@@ -1,0 +1,324 @@
+@import "tailwindcss";
+
+/* ────────────────────────────────────────────────────────
+   THEME DESIGN SYSTEM (DARK & LIGHT MODE SUPPORT)
+   Dark Theme: Black Background (#0A0A0A) / Orange Accent (#FF6500)
+   Light Theme: Warm White/Mint Background / Green Accent (#10B981)
+ ──────────────────────────────────────────────────────── */
+
+@layer base {
+  :root,
+  .dark {
+    --bg-app: #0A0A0A;
+    --bg-sidebar: #0E0E0E;
+    --bg-card: #1E1E22;
+    --bg-card-hover: #26262B;
+    --text-main: #FFFFFF;
+    --text-muted: #808080;
+    --text-muted-light: #A0A0A0;
+    --brand: #FF6500; /* Orange */
+    --brand-secondary: #FF8533;
+    --brand-dim: rgba(255, 101, 0, 0.22);
+    --brand-dimmer: rgba(255, 101, 0, 0.06);
+    --brand-hover: #FF8533;
+    --brand-shadow: rgba(255, 101, 0, 0.60);
+    --border-main: rgba(255, 101, 0, 0.28);
+    --border-hover: rgba(255, 101, 0, 0.60);
+    --shadow-card: 0 4px 20px rgba(0,0,0,0.35), 0 0 12px rgba(255,101,0,0.06);
+    /* Thinner hover “3D” shadow to match dashboard cards */
+    /* Removed green/orange border on hover; keep only subtle lift/shadow */
+    --shadow-card-hover: 0 8px 18px rgba(255,101,0,0.18);
+    --bg-backdrop: rgba(10, 10, 10, 0.65);
+
+    --background:  0 0% 4%;          /* #0A0A0A */
+    --foreground:  0 0% 96%;
+    --card:        240 6% 13%;       /* #1E1E22 */
+    --card-foreground: 0 0% 96%;
+    --primary:     22 100% 50%;      /* #FF6500 orange */
+    --primary-foreground: 0 0% 100%;
+    --secondary:   0 0% 12%;         /* #1E1E1E */
+    --secondary-foreground: 0 0% 80%;
+    --muted:       0 0% 14%;
+    --muted-foreground: 0 0% 50%;    /* #808080 */
+    --border:      0 0% 14%;         /* #242424 */
+    --input:       0 0% 10%;
+    --ring:        22 100% 50%;
+    --radius:      0.875rem;
+  }
+
+  .light {
+    --bg-app: #E8E9D6;                /* warm khaki/cream app background */
+    --bg-sidebar: #161614;            /* sidebar STAYS DARK in light mode */
+    --bg-sidebar-text: #C8C9B8;       /* sidebar muted text in light mode */
+    --bg-sidebar-text-active: #AADC32; /* sidebar active text — lime */
+    --bg-card: #F5F4EC;               /* warm cream cards */
+    --bg-card-hover: #DDE9A4;         /* lime-tinted hover */
+    --text-main: #1A1A14;             /* near-black warm dark text */
+    --text-muted: #4A4A38;            /* dark olive muted text */
+    --text-muted-light: #6A6A50;      /* medium olive text */
+    --brand: #AADC32;                 /* lime-chartreuse accent */
+    --brand-secondary: #8CC820;
+    --brand-dim: rgba(170, 220, 50, 0.20);
+    --brand-dimmer: rgba(170, 220, 50, 0.07);
+    --brand-hover: #8CC820;
+    --brand-shadow: rgba(170, 220, 50, 0.40);
+    --border-main: rgba(120, 140, 40, 0.22);
+    --border-hover: rgba(140, 200, 32, 0.55);
+    --shadow-card: 0 2px 12px rgba(0,0,0,0.06), 0 0 0 1px rgba(120,140,40,0.08);
+    /* Removed green/orange border on hover; keep only subtle lift/shadow */
+    --shadow-card-hover: 0 8px 18px rgba(170,220,50,0.18);
+    --bg-backdrop: rgba(26, 26, 20, 0.30);
+
+    --background:  72 20% 87%;        /* warm khaki */
+    --foreground:  70 20% 9%;
+    --card:        66 30% 96%;
+    --card-foreground: 70 20% 9%;
+    --primary:     80 69% 53%;        /* lime-chartreuse #AADC32 */
+    --primary-foreground: 0 0% 10%;
+    --secondary:   72 30% 90%;
+    --secondary-foreground: 70 20% 9%;
+    --muted:       72 20% 87%;
+    --muted-foreground: 70 15% 30%;
+    --border:      76 25% 78%;
+    --input:       66 30% 96%;
+    --ring:        80 69% 53%;
+    --radius:      0.875rem;
+  }
+}
+
+@layer base {
+      * { border-color: var(--border-main); }
+
+  /* Thin black border for all Card components (ui/card.tsx) */
+  .card { border-color: rgba(0,0,0,0.55) !important; }
+
+
+  /* Override white/grey borders to matching theme colors globally */
+  .border-white\/5 {
+    border-color: var(--border-main) !important;
+  }
+  .border-white\/10 {
+    border-color: var(--border-main) !important;
+  }
+  .border-b-white\/5 {
+    border-bottom-color: var(--border-main) !important;
+  }
+  .border-t-white\/5 {
+    border-top-color: var(--border-main) !important;
+  }
+  .divide-white\/5 > :not([hidden]) ~ :not([hidden]) {
+    border-color: var(--border-main) !important;
+  }
+
+  html, body {
+    background: var(--bg-app);
+    color: var(--text-main);
+    font-feature-settings: "rlig" 1, "calt" 1;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  /* Thin theme scrollbar */
+  ::-webkit-scrollbar { width: 2px; height: 2px; }
+  ::-webkit-scrollbar-track { background: var(--bg-app); }
+  ::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: #333333; }
+}
+
+/* ── Base card ── */
+.dash-card {
+  background: var(--bg-card);
+  border: 1px solid black;
+  min-height: 1px;
+
+
+  border-radius: 16px;
+  box-shadow: var(--shadow-card);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+  transform: translateY(0);
+}
+.dash-card:hover {
+  border-color: black;
+  /* solid black “3D” shadow to the right and down (thinner) */
+  box-shadow: 6px 6px 0 rgba(0,0,0,0.90), 0 8px 18px rgba(0,0,0,0.25);
+  transform: translateY(-2px);
+}
+
+
+
+
+/* ── Accent card ── */
+.dash-card-orange {
+  background: var(--bg-card);
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: var(--shadow-card);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+  transform: translateY(0);
+}
+.dash-card-orange:hover {
+  border-color: black;
+  box-shadow: 6px 6px 0 rgba(0,0,0,0.90), 0 8px 18px rgba(0,0,0,0.25);
+  transform: translateY(-2px);
+}
+
+
+
+
+/* ── Recommendation banner ── */
+.dash-card-rec {
+  background: var(--bg-card);
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: var(--shadow-card);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+  transform: translateY(0);
+}
+.dash-card-rec:hover { 
+  border-color: black;
+  box-shadow: 6px 6px 0 rgba(0,0,0,0.90), 0 8px 18px rgba(0,0,0,0.25);
+  transform: translateY(-2px);
+}
+
+
+
+
+/* ── Pipeline track ── */
+.dash-card-track {
+  background: var(--bg-card);
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: var(--shadow-card);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.dash-card-track:hover {
+  border-color: black;
+  /* solid black “3D” shadow to the right and down */
+  box-shadow: 6px 6px 0 rgba(0,0,0,0.90), 0 8px 18px rgba(0,0,0,0.25);
+}
+
+
+
+
+/* ── Panel card (side panels) ── */
+.dash-card-panel {
+  background: var(--bg-card);
+  border: 1px solid black;
+  border-radius: 16px;
+  box-shadow: var(--shadow-card);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+  transform: translateY(0);
+}
+.dash-card-panel:hover {
+  border-color: black;
+  /* solid black “3D” shadow to the right and down */
+  box-shadow: 6px 6px 0 rgba(0,0,0,0.90), 0 8px 18px rgba(0,0,0,0.25);
+  transform: translateY(-2px);
+}
+
+
+
+
+/* ── Sidebar ── */
+.dash-sidebar {
+  background: var(--bg-sidebar);
+  border-right: 1px solid var(--border-main);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Light mode: sidebar stays dark, so override nav text/border colors */
+.light .dash-sidebar {
+  border-right-color: rgba(170, 220, 50, 0.15);
+}
+
+/* Light mode sidebar nav link text */
+.light .dash-sidebar a {
+  color: #8A8A72 !important;
+}
+.light .dash-sidebar a:hover {
+  color: #1A1A14 !important;
+  background: #F5F4EC !important;
+}
+.light .dash-sidebar .nav-active-orange {
+  color: #FFFFFF !important;
+  background: rgba(255,255,255,0.12) !important;
+  border-color: rgba(255,255,255,0.22) !important;
+}
+
+/* Override ALL text inside sidebar to be readable on dark bg */
+.light .dash-sidebar span,
+.light .dash-sidebar p,
+.light .dash-sidebar div {
+  color: inherit;
+}
+/* Pipeline tuning section in sidebar — dark bg override */
+.light .dash-sidebar .border-t {
+  border-top-color: rgba(170,220,50,0.15) !important;
+}
+
+
+/* ── Active nav pill ── */
+.nav-active-orange {
+  color: #FFFFFF;
+}
+
+/* Light mode badge-grey override */
+.light .badge-grey {
+  background: rgba(0,0,0,0.06);
+  color: #4A4A38;
+}
+
+/* ── Orange metric icon circle ── */
+.metric-icon-orange {
+  background: var(--brand-dim);
+  border: 1px solid var(--border-main);
+}
+
+/* ── Badges ── */
+.badge-orange {
+  background: var(--brand-dim);
+  color: var(--brand);
+  border: 1px solid var(--border-main);
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 9px;
+  letter-spacing: 0.03em;
+}
+
+.badge-grey {
+  background: rgba(255,255,255,0.07);
+  color: var(--text-muted);
+  border: 1px solid var(--border-main);
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 9px;
+}
+
+.light .badge-grey {
+  background: rgba(0,0,0,0.04);
+}
+
+/* ── Brand text ── */
+.text-orange {
+  color: var(--brand);
+}
+.text-orange-bright {
+  color: var(--brand-secondary);
+}
+
+/* ── Keyframes ── */
+@keyframes orange-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(16,185,129,0); }
+  50%       { box-shadow: 0 0 16px 4px var(--brand-dim); }
+}
+@keyframes subtle-float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-3px); }
+}
+
+.animate-orange-pulse { animation: orange-pulse 3s ease-in-out infinite; }
+.animate-float        { animation: subtle-float 4s ease-in-out infinite; }

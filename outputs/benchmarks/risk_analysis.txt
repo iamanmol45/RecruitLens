@@ -1,0 +1,16 @@
+==================================================
+4. RISK & QUALITY REPORT
+==================================================
+
+Low Risk                      : 6,339
+Medium Risk                   : 67,229
+High Risk                     : 26,431
+
+Hidden Gems                   : 31
+Honeypot Flagged              : 0
+Candidates Rejected           : 0
+Candidates Replaced           : 0
+
+Average Skill Gap             : 12.01
+Average Match Score           : 4.57
+Average Semantic Score        : 67.10

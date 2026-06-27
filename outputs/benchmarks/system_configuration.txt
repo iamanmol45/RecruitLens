@@ -1,0 +1,11 @@
+==================================================
+      SYSTEM CONFIGURATION
+==================================================
+
+Dataset Size                  : 99,999
+Embedding Model               : all-MiniLM-L6-v2
+Similarity Metric             : Cosine Similarity
+Ranking Algorithm             : Hybrid Weighted Ranking
+Programming Language          : Python
+Execution Mode                : CPU
+External APIs                 : None

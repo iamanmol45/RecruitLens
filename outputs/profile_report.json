@@ -1,0 +1,133 @@
+{
+    "total_candidates": 99999,
+    "avg_experience": 7.17,
+    "avg_skills_per_candidate": 9.6,
+    "open_to_work_percentage": 35.34,
+    "avg_github_score": 29.03,
+    "top_10_skills": [
+        [
+            "HTML",
+            12246
+        ],
+        [
+            "Databricks",
+            12244
+        ],
+        [
+            "Redux",
+            12222
+        ],
+        [
+            "Terraform",
+            12187
+        ],
+        [
+            "Angular",
+            12173
+        ],
+        [
+            "Salesforce CRM",
+            12157
+        ],
+        [
+            "Figma",
+            12156
+        ],
+        [
+            "Vue.js",
+            12142
+        ],
+        [
+            "Sales",
+            12138
+        ],
+        [
+            "Accounting",
+            12135
+        ]
+    ],
+    "top_10_industries": [
+        [
+            "IT Services",
+            29881
+        ],
+        [
+            "Software",
+            22416
+        ],
+        [
+            "Manufacturing",
+            22305
+        ],
+        [
+            "Conglomerate",
+            7571
+        ],
+        [
+            "Paper Products",
+            7467
+        ],
+        [
+            "Fintech",
+            2808
+        ],
+        [
+            "Food Delivery",
+            2514
+        ],
+        [
+            "E-commerce",
+            1529
+        ],
+        [
+            "Consulting",
+            1274
+        ],
+        [
+            "EdTech",
+            610
+        ]
+    ],
+    "top_10_locations": [
+        [
+            "Bhubaneswar, Odisha",
+            4321
+        ],
+        [
+            "Noida, Uttar Pradesh",
+            4283
+        ],
+        [
+            "Hyderabad, Telangana",
+            4283
+        ],
+        [
+            "Jaipur, Rajasthan",
+            4268
+        ],
+        [
+            "Bangalore, Karnataka",
+            4238
+        ],
+        [
+            "Kolkata, West Bengal",
+            4230
+        ],
+        [
+            "Indore, Madhya Pradesh",
+            4198
+        ],
+        [
+            "Pune, Maharashtra",
+            4186
+        ],
+        [
+            "Chennai, Tamil Nadu",
+            4164
+        ],
+        [
+            "Delhi, Delhi",
+            4161
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+==================================================
+        RANKING STATISTICS
+==================================================
+
+Highest Match Score           : 100.00
+Highest Semantic Score        : 74.63
+Average Candidate Score       : 50.83
+Average Behavior Score        : 49.07
+Average Trajectory Score      : 56.49
+Average Potential Score       : 15.27
+Highest Final Score           : 101.17
+Lowest Final Score            : 16.72

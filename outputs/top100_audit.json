@@ -1,0 +1,312 @@
+[
+    {
+        "candidate_id": "CAND_0098846",
+        "honeypot_score": 3,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0078002",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0081852",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0023215",
+        "honeypot_score": 3,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0005538",
+        "honeypot_score": 2,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Very low skill gap."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0047521",
+        "honeypot_score": 3,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0053527",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0052335",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0074735",
+        "honeypot_score": 3,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0066035",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0010541",
+        "honeypot_score": 3,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0037566",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0069248",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0073504",
+        "honeypot_score": 2,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Very low skill gap."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0046132",
+        "honeypot_score": 2,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Very low skill gap."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0037160",
+        "honeypot_score": 3,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0043304",
+        "honeypot_score": 2,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Very low skill gap."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0040117",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0000273",
+        "honeypot_score": 2,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Very low skill gap."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0015578",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0073007",
+        "honeypot_score": 3,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0032089",
+        "honeypot_score": 3,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0098952",
+        "honeypot_score": 2,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Very low skill gap."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0073883",
+        "honeypot_score": 2,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Very low skill gap."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0099675",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0061257",
+        "honeypot_score": 2,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Very low skill gap."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0026362",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0044262",
+        "honeypot_score": 3,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0093193",
+        "honeypot_score": 2,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Very low skill gap."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0065786",
+        "honeypot_score": 2,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Very low skill gap."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0078262",
+        "honeypot_score": 2,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Very low skill gap."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0002426",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0043860",
+        "honeypot_score": 2,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Very low skill gap."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0058688",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0006567",
+        "honeypot_score": 2,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Very low skill gap."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0097176",
+        "honeypot_score": 5,
+        "honeypot_status": "Needs Review",
+        "reasons": [
+            "Very low skill gap.",
+            "Match score of 100 with poor skill coverage."
+        ]
+    },
+    {
+        "candidate_id": "CAND_0093883",
+        "honeypot_score": 3,
+        "honeypot_status": "Verified",
+        "reasons": [
+            "Match score of 100 with poor skill coverage."
+        ]
+    }
+]

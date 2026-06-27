@@ -1,0 +1,19 @@
+==================================================
+3. SCORE DISTRIBUTION
+==================================================
+
+Highest Score                 : 101.17
+Lowest Score                  : 16.72
+Mean Score                    : 42.39
+Median Score                  : 36.75
+Standard Deviation            : 16.38
+
+Top-10 Average                : 99.55
+Top-50 Average                : 96.72
+Top-100 Average               : 95.00
+
+Semantic Score Average        : 67.10
+Match Score Average           : 4.57
+Behavior Score Average        : 49.07
+Trajectory Score Average      : 56.49
+Potential Score Average       : 15.27

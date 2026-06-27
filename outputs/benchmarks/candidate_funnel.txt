@@ -1,0 +1,14 @@
+==================================================
+1. CANDIDATE FUNNEL
+==================================================
+
+Candidates Loaded             : 99,999
+Schema Valid                  : 100
+Schema Invalid                : 0
+Candidates Filtered           : 92,182
+Candidates Proceeding         : 7,817
+Top-100 Selected              : 100
+Semantic Re-ranked            : 100
+Honeypot Audited              : 100
+Candidates Replaced           : 0
+Final Submission Count        : 100

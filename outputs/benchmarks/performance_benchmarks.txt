@@ -1,0 +1,29 @@
+==================================================
+2. PERFORMANCE BENCHMARKS
+==================================================
+
+Total Runtime                 : 34.4912 sec
+Peak Memory                   : 2360.36 MB
+Average Time per Candidate    : 0.0003 sec
+Candidates / Second           : 2,899
+
+---
+
+Schema Validation             : 0.0592 sec
+JD Parsing                    : 0.0002 sec
+Feature Extraction            : 0.2307 sec
+Candidate Scoring             : 0.1196 sec
+JD Matching                   : 4.1365 sec
+Behavior Analysis             : 0.0114 sec
+Career Trajectory Analysis    : 0.4416 sec
+Risk Assessment               : 0.0895 sec
+Skill Gap Analysis            : 0.1875 sec
+Potential Prediction          : 0.0093 sec
+Weighted Ranking              : 0.0087 sec
+Initial Sorting               : 0.0027 sec
+Semantic Embedding Generation : 1.7696 sec
+Cosine Similarity             : 0.0171 sec
+Semantic Re-ranking           : 0.0144 sec
+Honeypot Audit                : 0.0077 sec
+Dynamic Replacement           : 0.0019 sec
+CSV Generation                : 0.0151 sec
