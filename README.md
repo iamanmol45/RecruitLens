@@ -157,7 +157,7 @@ npm install
 
 The interactive recruitment dashboard can be accessed here:
 
-🔗 Dashboard: https://your-vercel-link.vercel.app
+🔗 Dashboard: https://recruit-lens-nine.vercel.app/
 
 ## Future Improvements
 
