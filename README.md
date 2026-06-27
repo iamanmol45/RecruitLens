@@ -137,13 +137,17 @@ npm install
 
 ![Dashboard](image/Dashboard.png)
 
-### Candidate Analysis
+### Ranked Candidates
 
-![Candidate Profile](image/profile.png)
+![Candidate Profile](image/Candidates.png)
+
+### Candidate Biodata
+
+![Candidate Profile](image/Candidate_Details.png)
 
 ### Hidden Gems
 
-![Hidden Gems](image/hidden-gems.png)
+![Hidden Gems](image/Hidden.png)
 
 ## Demo
 
