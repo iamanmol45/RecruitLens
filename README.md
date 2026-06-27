@@ -10,48 +10,25 @@ RecruitLens is an end-to-end recruitment intelligence platform that ranks candid
 
 Each candidate progresses through validation, feature extraction, weighted scoring, semantic reranking using **all-MiniLM-L6-v2**, and a final honeypot audit before being included in the recruiter-ready Top-100 shortlist. Every ranking is supported by deterministic scoring, transparent decision traces, and measurable candidate signals, ensuring accurate, consistent, and explainable hiring recommendations.
 
----
 
-## Performance
+##Technology Stack 
 
-| Metric          | Value             |
-| --------------- | ----------------- |
-| Runtime         | 28.44 seconds     |
-| Memory Usage    | 2.30 GB           |
-| Compute         | CPU only          |
-| External APIs   | None              |
-| Embedding Model | all-MiniLM-L6-v2  |
-| Dataset Size    | 99,999 candidates |
-
----
-
-## Technology Stack
-
-### Backend
-
-* Python
-* Pandas
-* NumPy
-
-### Semantic Matching
-
-* sentence-transformers/all-MiniLM-L6-v2
-* Cosine Similarity
-
-### Frontend
-
-* Next.js
-* React
-* TypeScript
-* Tailwind CSS
-
-### Visualization
-
-* Recharts
+| **Layer**                    | **Technology**             | **Purpose**                    |
+| ---------------------------- | -------------------------- | ------------------------------ |
+| Programming Language         | Python 3                   | Backend implementation         |
+| Frontend Framework           | Next.js, React, TypeScript | Recruiter dashboard            |
+| API Framework                | FastAPI                    | Backend API integration        |
+| Data Processing              | Pandas, NumPy              | Data preprocessing & analytics |
+| NLP Framework                | Sentence Transformers      | Semantic embedding generation  |
+| Embedding Model              | all-MiniLM-L6-v2           | Candidate–JD encoding          |
+| Similarity Metric            | Cosine Similarity          | Semantic relevance scoring     |
+| Validation                   | JSON Schema (Draft 7)      | Candidate profile validation   |
+| Visualization                | Tailwind CSS, Recharts     | Interactive dashboards         |
+| Deployment & Version Control | Git, GitHub, Vercel        | Source control & deployment    |
 
 ## System Architecture
 
-<img src="image/architecture.png" width="100%">
+<img src="image/Architecture.png" width="100%">
 
 ## Core Modules
 
