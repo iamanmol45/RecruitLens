@@ -6,23 +6,9 @@ Candidate Ranking and Recruitment Analytics Platform
 
 ## Overview
 
-RecruitLens ranks candidates by combining multiple evaluation signals instead of relying solely on keyword matching.
+RecruitLens is an end-to-end recruitment intelligence platform that ranks candidates using a hierarchical, multi-stage evaluation pipeline instead of conventional keyword-based screening. The system combines structured profile analysis, job-description matching, behavioral intelligence, career trajectory evaluation, risk assessment, semantic similarity, and explainable decision logic to identify the most relevant candidates.
 
-The ranking pipeline consists of:
-
-* Job description parsing
-* Candidate feature extraction
-* Candidate-job matching
-* Behavioral scoring
-* Skill gap analysis
-* Career trajectory analysis
-* Risk assessment
-* Future potential prediction
-* Hidden gem detection
-* Semantic reranking using all-MiniLM-L6-v2
-* Top 100 honeypot audit
-
-The system produces an explainable Top 100 candidate ranking along with risk indicators, growth signals, and recruiter recommendations.
+Each candidate progresses through validation, feature extraction, weighted scoring, semantic reranking using **all-MiniLM-L6-v2**, and a final honeypot audit before being included in the recruiter-ready Top-100 shortlist. Every ranking is supported by deterministic scoring, transparent decision traces, and measurable candidate signals, ensuring accurate, consistent, and explainable hiring recommendations.
 
 ---
 
