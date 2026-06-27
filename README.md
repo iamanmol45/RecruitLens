@@ -24,7 +24,7 @@ Each candidate progresses through validation, feature extraction, weighted scori
 ## Candidate Ranking
 
 <p align="center">
-  <img src="image/candidate-ranking.gif" width="900" alt="Candidate Ranking"/>
+  <img src="image/candidate.gif" width="900" alt="Candidate Ranking"/>
 </p>
 
 > End-to-end candidate evaluation and intelligent ranking pipeline.
@@ -34,7 +34,7 @@ Each candidate progresses through validation, feature extraction, weighted scori
 ## Candidate Comparison
 
 <p align="center">
-  <img src="image/candidate-comparison.gif" width="900" alt="Candidate Comparison"/>
+  <img src="image/candidate comparison.gif" width="900" alt="Candidate Comparison"/>
 </p>
 
 > Side-by-side comparison of shortlisted candidates across multiple evaluation signals.
@@ -44,7 +44,7 @@ Each candidate progresses through validation, feature extraction, weighted scori
 ## Hidden Gem Detection
 
 <p align="center">
-  <img src="image/hidden-gem-detection.gif" width="900" alt="Hidden Gem Detection"/>
+  <img src="image/hiddendetection.gif" width="900" alt="Hidden Gem Detection"/>
 </p>
 
 > Identification of high-potential candidates who may be overlooked by traditional screening.
@@ -54,7 +54,7 @@ Each candidate progresses through validation, feature extraction, weighted scori
 ## Recruiter Copilot
 
 <p align="center">
-  <img src="image/recruiter-copilot.gif" width="900" alt="Recruiter Copilot"/>
+  <img src="image/recruiter.gif" width="900" alt="Recruiter Copilot"/>
 </p>
 
 > Explainable candidate recommendations with deterministic hiring insights.
