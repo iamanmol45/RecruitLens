@@ -154,7 +154,7 @@ npm install
 
 ## Demo
 
-🎥 Demo Video: `<video-link>`
+🎥 Demo Video: `[Click Here]( RecruitLens – Recruitment Intelligence Platform)`
 
 ## Live Dashboard
 
