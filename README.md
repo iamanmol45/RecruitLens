@@ -135,7 +135,7 @@ npm install
 
 ### Main Dashboard
 
-![Dashboard](image/dashboard.png)
+![Dashboard](image/Dashboard.png)
 
 ### Candidate Analysis
 
